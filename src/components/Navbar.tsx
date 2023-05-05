@@ -12,7 +12,7 @@ const Navbar = () => {
           <GiHamburgerMenu />
         </div>
         <Link to={"/"}>
-          <div className="flex gap-1 item-center justify-center">
+          <div className="flex gap-1 items-center justify-center">
             <BsYoutube className="text-3xl text-red-600" />
             <span className="text-xl font-medium">YouTube</span>
           </div>
@@ -47,6 +47,11 @@ const Navbar = () => {
               9+
             </span>
           </div>
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_kGluPYWU9tP2OvG7qmFrW6Wixk-B1KHs40i0worECWogmi5GpJH_1yM3o7wrUimAYv0&usqp=CAU"
+            alt=""
+            className="h-9 w-9 rounded-full "
+          />
         </div>
       </div>
     </div>
