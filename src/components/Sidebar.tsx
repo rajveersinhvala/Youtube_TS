@@ -135,6 +135,21 @@ const Sidebar = () => {
             </li>
           );
         })}
+        {secondaryLinks.map((ele, ind) => {
+          return (
+            <li
+              key={ind}
+              className={`pl-9 py-3 hover:bg-zinc-600 ${
+                ele.name === "Home" ? "bg-slate-600" : ""
+              }`}
+            >
+              <a href="#" className="flex items-center gap-5">
+                {ele.icon}
+                <span className="text-sm tracking-winder">{ele.name}</span>
+              </a>
+            </li>
+          );
+        })}
       </ul>
     </div>
   );
