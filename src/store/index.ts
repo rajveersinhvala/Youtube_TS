@@ -32,3 +32,4 @@ export const store = configureStore({
 //custom type definition created using TypeScript.
 export type RootSate = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;
+// changes
