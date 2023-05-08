@@ -27,6 +27,7 @@ const Navbar = () => {
               </div>
               <input
                 type="text"
+                placeholder="Search"
                 className="w-96 bg-zinc-900 focus:outline-none border-none"
               />
               <AiOutlineClose className="text-xl cursor-pointer rounded-md" />
