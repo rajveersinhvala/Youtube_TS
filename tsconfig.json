@@ -1,9 +1,12 @@
 {
+ 
   "compilerOptions": {
     "target": "ESNext",
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "module": "ESNext",
     "skipLibCheck": true,
+    "typeRoots": ["@types", "node_modules/@types"],
+    "outDir": "./lib",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -17,8 +20,9 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": false
   },
-  "include": ["src"],
+  "include": ["./src", "./scripts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
